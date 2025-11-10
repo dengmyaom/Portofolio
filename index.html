@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portofolio</title>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="menu__overlay"></div>
+        <nav class="nav">
+          <h2 class="logo">DK<span>Dev</span></h2>
+          <ul class="nav__links">
+            <li class="nav__item active">
+              <a class="nav__link" href="#header">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#projects">Projects</a>
+            </li>
+          </ul>
+          <div class="header__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+        <div class="header__text">
+          <h1 class="header__title">Deng Keer</h1>
+          <p class="header__description"><span>Front-End</span> Developer</p>
+          <img
+            class="header__image"
+            load="lazy"
+            src="imgs/me.jpg"
+            alt="My main image"
+          />
+          <button class="header__btn">Contact Me</button>
+          <ul class="header__text--links" class="social">
+            <li class="header__title--item">
+              <a class="header__title--link" href="https://github.com/dengmyaom"
+                ><i class="fa fa-github"></i> GitHub
+              </a>
+            </li>
+            <li class="header__title--item">
+              <a class="header__title--link" href="https://twitter.com/dengmyaom"
+                ><i class="fa fa-github"></i> Twitter
+              </a>
+            </li>
+            <li class="header__title--item">
+              <a class="header__title--link" href="www.linkedin.com/in"
+                ><i class="fa fa-linkedin"></i> Linkendin</a
+              >
+            </li>
+            <li class="header__title--item">
+              <a class="header__title--link" href="https://freecodecamb.com/dengmyaom"
+                ><i class="fa fa-freecodecamb"></i> CodeCamp
+              </a>
+            </li>
+          </ul>
+
+          <span class="header__arrow">&DownArrow;</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section__header">About Me</h2>
+        <p class="section__description">
+          Hello there, My name is Deng, I'm a <span>Web developer,</span><br />
+          I using these technologies <strong>HTML</strong>,
+          <strong>CSS</strong>, <strong>JavaScript</strong>,
+          <strong>NextJs</strong>, <strong>React</strong>.<br />Also I'm
+          interisting in <span>BackEnd Development</span>, Sometimes I use
+          <strong>NodeJs</strong>, <strong>Express</strong> and
+          <strong>MongoDB</strong>.
+        </p>
+        <img class="about__image" src="./imgs/me.jpg" alt="About me" />
+      </div>
+    </section>
+
+    <section class="section__projects" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>These are Sample of Projects that I maded for Practic</p>
+        <div class="projects-continer">
+          <div class="project">
+            <img src="./imgs/features-01.jpg" alt="Project Screenshot" />
+            <div class="info">
+              <h4>Project One</h4>
+              <p>
+                This is my project and some text about it. I enjoyed making this
+                project
+              </p>
+              <button>View here</button>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./imgs/features-03.jpg" alt="Project Screenshot" />
+            <div class="info">
+              <h4>Project One</h4>
+              <p>
+                This is my project and some text about it. I enjoyed making this
+                project
+              </p>
+              <button>View here</button>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./imgs/features-02.jpg" alt="Project Screenshot" />
+            <div class="info">
+              <h4>Project One</h4>
+              <p>
+                This is my project and some text about it. I enjoyed making this
+                project
+              </p>
+              <button>View here</button>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./imgs/features-03.jpg" alt="Project Screenshot" />
+            <div class="info">
+              <h4>Project One</h4>
+              <p>
+                This is my project and some text about it. I enjoyed making this
+                project>
+              </p>
+              <button>View here</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__contact" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>I will be very happy when you let me a message!</p>
+      </div>
+      <form class="contact" action="#">
+        <input
+          class="form__input"
+          type="text"
+          name="name"
+          placeholder="Your name"
+        />
+        <input
+          class="form__input"
+          type="text"
+          name="phone"
+          placeholder="Your phone"
+        />
+        <input
+          class="form__input"
+          type="email"
+          name="email"
+          placeholder="Your Email"
+        />
+        <textarea
+          class="form__input"
+          name="message"
+          placeholder="Type Your message"
+        ></textarea>
+        <button class="form__btn">Send</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="info">
+          <address>
+            <p><strong>Address:</strong> Kharum Sudan</p>
+            <p><strong>Email:</strong> dengmyaom@gamil.com</p>
+            <p><strong>Mobile:</strong>+249922371198</p>
+            <p><strong>Watsapp:</strong>+249909336353</p>
+          </address>
+          <ul class="footer__links">
+            <li class="footer__item">
+              <a class="footer__link" href="#"
+                ><i class="fa fa-github"></i> GitHub
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#"
+                ><i class="fa fa-github"></i> Twitter
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#"
+                ><i class="fa fa-github"></i> Linkendin</a
+              >
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#"
+                ><i class="fa fa-github"></i> CodeCamp
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>Made With By <span>Deng</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
